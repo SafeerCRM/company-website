@@ -46,9 +46,9 @@ const outcomes = [
 
 export default function ProjectsPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-white">
+    <main className="min-h-screen overflow-x-hidden bg-slate-950 text-white">
       <header className="border-b border-white/10">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-5 lg:flex-row lg:items-center lg:justify-between lg:px-8">
           <a href="/" className="group">
             <p className="text-xl font-bold tracking-tight transition group-hover:text-blue-300">
               S4Start Technologies
@@ -59,7 +59,7 @@ export default function ProjectsPage() {
             </p>
           </a>
 
-          <nav className="flex items-center gap-5 text-sm text-slate-300">
+          <nav className="flex flex-wrap items-center gap-4 text-sm text-slate-300">
   <a className="transition hover:text-white" href="/">
     Home
   </a>
