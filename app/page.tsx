@@ -37,6 +37,9 @@ export default function Home() {
             <a className="transition hover:text-white" href="/about">
               About
             </a>
+            <a className="hover:text-white" href="/projects">
+             Projects
+            </a>
             <a
               className="transition hover:text-white"
               href="/privacy-policy"
@@ -792,6 +795,9 @@ export default function Home() {
           <div className="flex flex-wrap gap-5">
             <a className="hover:text-white" href="/about">
               About
+            </a>
+            <a className="hover:text-white" href="/projects">
+            Projects
             </a>
             <a className="hover:text-white" href="/privacy-policy">
               Privacy Policy
