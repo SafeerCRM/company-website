@@ -58,18 +58,26 @@ export default function AboutPage() {
           </a>
 
           <nav className="flex items-center gap-5 text-sm text-slate-300">
-            <a className="transition hover:text-white" href="/">
-              Home
-            </a>
+  <a className="transition hover:text-white" href="/">
+    Home
+  </a>
 
-            <a className="transition hover:text-white" href="/support">
-              Support
-            </a>
+  <a className="transition hover:text-white" href="/about">
+    About
+  </a>
 
-            <a className="transition hover:text-white" href="/contact">
-              Contact
-            </a>
-          </nav>
+  <a className="transition hover:text-white" href="/projects">
+    Projects
+  </a>
+
+  <a className="transition hover:text-white" href="/support">
+    Support
+  </a>
+
+  <a className="transition hover:text-white" href="/contact">
+    Contact
+  </a>
+</nav>
         </div>
       </header>
 
