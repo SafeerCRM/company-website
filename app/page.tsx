@@ -150,20 +150,85 @@ export default function Home() {
       </section>
 
       <section>
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
-          <div className="rounded-3xl border border-blue-400/20 bg-blue-500/10 p-8 sm:p-12">
-            <h2 className="text-3xl font-bold tracking-tight">
-              Built for long-term business use
-            </h2>
+  <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
 
-            <p className="mt-4 max-w-3xl text-lg leading-8 text-slate-300">
-              We focus on maintainable architecture, secure access, practical
-              interfaces, and dependable workflows so businesses can keep using
-              and expanding their software as they grow.
-            </p>
-          </div>
+    <div className="max-w-3xl">
+      <p className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-300">
+        Why S4Start Technologies
+      </p>
+
+      <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">
+        Software engineered around your business
+      </h2>
+
+      <p className="mt-5 text-lg leading-8 text-slate-300">
+        Every organisation operates differently. Rather than adapting your
+        business to generic software, we design systems that fit your
+        existing workflows, departments, approval structures, reporting,
+        and operational processes.
+      </p>
+    </div>
+
+    <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+
+      {[
+        {
+          title: "Business First",
+          desc: "Every module is designed around actual operational workflows instead of unnecessary complexity.",
+        },
+
+        {
+          title: "Scalable Architecture",
+          desc: "Solutions are built so additional departments, users, and features can be added as your business grows.",
+        },
+
+        {
+          title: "Secure Access Control",
+          desc: "Role-based permissions help ensure users only access information relevant to their responsibilities.",
+        },
+
+        {
+          title: "Long-Term Partnership",
+          desc: "We continue improving software with maintenance, optimisation, new features, and ongoing technical support.",
+        },
+      ].map((item) => (
+
+        <div
+          key={item.title}
+          className="rounded-2xl border border-white/10 bg-slate-900 p-7"
+        >
+          <h3 className="text-xl font-semibold">
+            {item.title}
+          </h3>
+
+          <p className="mt-4 leading-7 text-slate-400">
+            {item.desc}
+          </p>
+
         </div>
-      </section>
+
+      ))}
+
+    </div>
+
+    <div className="mt-16 rounded-3xl border border-blue-400/20 bg-blue-500/10 p-10">
+
+      <h2 className="text-3xl font-bold">
+        Building software that continues to evolve
+      </h2>
+
+      <p className="mt-5 max-w-4xl text-lg leading-8 text-slate-300">
+        We believe business software should grow alongside the organisation
+        using it. From CRM and ERP platforms to customer portals, mobile
+        applications, dashboards, and business automation, our focus is on
+        delivering reliable systems that remain valuable for years rather
+        than months.
+      </p>
+
+    </div>
+
+  </div>
+</section>
 
       <footer className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-400 md:flex-row md:items-center md:justify-between lg:px-8">
