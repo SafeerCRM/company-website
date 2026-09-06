@@ -166,7 +166,7 @@ export default function WhyChoose() {
             </div>
 
             <a
-              href="/contact"
+              href="/book-demo"
               className="inline-flex justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
             >
               Talk About Your Workflow

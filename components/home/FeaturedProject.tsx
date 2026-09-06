@@ -356,11 +356,11 @@ export default function FeaturedProject() {
   </a>
 
   <a
-    href="/contact"
-    className="inline-flex rounded-xl border border-white/15 bg-white/5 px-7 py-3.5 font-semibold text-slate-200 transition hover:border-white/30 hover:bg-white/10"
-  >
-    Discuss Your Project
-  </a>
+  href="/book-demo"
+  className="inline-flex rounded-xl border border-white/15 bg-white/5 px-7 py-3.5 font-semibold text-slate-200 transition hover:border-white/30 hover:bg-white/10"
+>
+  Discuss Your Project
+</a>
 </div>
         </div>
       </div>

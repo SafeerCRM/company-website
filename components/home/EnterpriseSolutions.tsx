@@ -62,7 +62,7 @@ const solutions = [
       'Advanced filters',
       'CSV and spreadsheet exports',
     ],
-    href: '/contact',
+    href: '/analytics-reporting',
   },
   {
     number: '06',
@@ -182,7 +182,9 @@ export default function EnterpriseSolutions() {
       ? 'Explore Business Automation →'
       : solution.href === '/customer-partner-portal-development'
         ? 'Explore Customer & Partner Portals →'
-        : 'Discuss This Solution →'}
+        : solution.href === '/analytics-reporting'
+          ? 'Explore Analytics & Reporting →'
+          : 'Discuss This Solution →'}
 </a>
               </div>
             </article>
@@ -293,7 +295,7 @@ export default function EnterpriseSolutions() {
             </div>
 
             <a
-              href="/contact"
+              href="/book-demo"
               className="inline-flex justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
             >
               Discuss Your Requirements

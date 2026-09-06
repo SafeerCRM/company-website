@@ -45,11 +45,11 @@ export default function FinalCTA() {
 
             <div className="flex flex-col gap-3">
               <a
-                href="/contact"
-                className="inline-flex min-w-[210px] justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-xl shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
-              >
-                Book a Free Consultation
-              </a>
+  href="/book-demo"
+  className="inline-flex min-w-[210px] justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-xl shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Discuss Your Project
+</a>
 
               <a
                 href="/projects"

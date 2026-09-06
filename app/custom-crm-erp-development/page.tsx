@@ -252,11 +252,11 @@ export default function CustomCrmErpDevelopmentPage() {
               </a>
 
               <a
-                href="/contact"
-                className="rounded-xl bg-blue-500 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-400"
-              >
-                Discuss Your Project
-              </a>
+  href="/book-demo"
+  className="rounded-xl bg-blue-500 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-400"
+>
+  Book a Demo
+</a>
             </nav>
 
             <a
@@ -293,11 +293,11 @@ export default function CustomCrmErpDevelopmentPage() {
 
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
-                  href="/contact"
-                  className="rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
-                >
-                  Discuss Your Requirements
-                </a>
+  href="/book-demo"
+  className="rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-lg shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Discuss Your Requirements
+</a>
 
                 <a
                   href="/projects"
@@ -685,11 +685,11 @@ export default function CustomCrmErpDevelopmentPage() {
                 </div>
 
                 <a
-                  href="/contact"
-                  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
-                >
-                  Discuss Your CRM / ERP
-                </a>
+  href="/book-demo"
+  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Discuss Your CRM / ERP
+</a>
               </div>
             </div>
           </div>

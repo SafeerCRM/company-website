@@ -15,6 +15,10 @@ const solutionLinks = [
   label: 'Customer & Partner Portals',
   href: '/customer-partner-portal-development',
 },
+{
+  label: 'Analytics & Reporting',
+  href: '/analytics-reporting',
+},
   {
     label: 'Business Automation',
     href: '/business-automation',

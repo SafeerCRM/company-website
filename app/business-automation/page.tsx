@@ -149,7 +149,7 @@ const integrationTypes = [
     title: 'External Services & APIs',
     description:
       'Connect suitable third-party services and business systems through secure integration workflows.',
-    href: '/contact',
+    href: '/book-demo',
   },
 ];
 
@@ -314,11 +314,11 @@ export default function BusinessAutomationPage() {
               </a>
 
               <a
-                href="/contact"
-                className="rounded-xl bg-blue-500 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-400"
-              >
-                Discuss Automation
-              </a>
+  href="/book-demo"
+  className="rounded-xl bg-blue-500 px-5 py-2.5 font-semibold text-white transition hover:bg-blue-400"
+>
+  Book a Demo
+</a>
             </nav>
 
             <a
@@ -356,11 +356,11 @@ export default function BusinessAutomationPage() {
 
               <div className="mt-9 flex flex-wrap justify-center gap-4">
                 <a
-                  href="/contact"
-                  className="rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
-                >
-                  Discuss Your Workflow
-                </a>
+  href="/book-demo"
+  className="rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Discuss Your Workflow
+</a>
 
                 <a
                   href="/projects"
@@ -533,9 +533,9 @@ export default function BusinessAutomationPage() {
                     href={item.href}
                     className="mt-6 text-sm font-semibold text-blue-300 transition hover:text-blue-200"
                   >
-                    {item.href === '/contact'
-                      ? 'Discuss Integration →'
-                      : 'Explore →'}
+                    {item.href === '/book-demo'
+  ? 'Discuss Integration →'
+  : 'Explore →'}
                   </a>
                 </article>
               ))}
@@ -681,11 +681,11 @@ export default function BusinessAutomationPage() {
                 </div>
 
                 <a
-                  href="/contact"
-                  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
-                >
-                  Discuss Your Workflow
-                </a>
+  href="/book-demo"
+  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Discuss Your Workflow
+</a>
               </div>
             </div>
           </div>

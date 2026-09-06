@@ -56,7 +56,7 @@ const issueChecklist = [
 ];
 
 export default function SupportPage() {
-  const supportEmail = 'crmapp1208@gmail.com';
+  const supportEmail = 's4starttech@gmail.com';
 
   return (
     <main className="min-h-screen overflow-x-hidden bg-slate-950 text-white">

@@ -234,7 +234,7 @@ export default function TechnologyStack() {
             </div>
 
             <a
-              href="/contact"
+              href="/book-demo"
               className="inline-flex justify-center rounded-xl border border-blue-400/30 bg-blue-500/10 px-6 py-3.5 font-semibold text-blue-100 transition hover:bg-blue-500/20"
             >
               Discuss Your Architecture

@@ -59,11 +59,11 @@ export default function Hero() {
 
           <div className="mt-9 flex flex-wrap gap-4">
             <a
-              href="/contact"
-              className="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-xl shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
-            >
-              Book a Free Consultation
-            </a>
+  href="/book-demo"
+  className="inline-flex items-center justify-center rounded-xl bg-blue-500 px-6 py-3.5 font-semibold text-white shadow-xl shadow-blue-950/30 transition hover:-translate-y-0.5 hover:bg-blue-400"
+>
+  Book a Demo
+</a>
 
             <a
               href="#services"

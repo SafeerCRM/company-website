@@ -129,11 +129,11 @@ export default function ProjectsPage() {
             </a>
 
             <a
-              href="/contact"
-              className="rounded-xl bg-blue-500 px-4 py-2 font-semibold text-white transition hover:bg-blue-400"
-            >
-              Discuss a Project
-            </a>
+  href="/book-demo"
+  className="rounded-xl bg-blue-500 px-4 py-2 font-semibold text-white transition hover:bg-blue-400"
+>
+  Discuss a Project
+</a>
           </nav>
         </div>
       </header>
@@ -646,11 +646,11 @@ export default function ProjectsPage() {
 
               <div className="flex flex-col gap-3">
                 <a
-                  href="/contact"
-                  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:bg-blue-400"
-                >
-                  Discuss Your Project
-                </a>
+  href="/book-demo"
+  className="inline-flex justify-center rounded-xl bg-blue-500 px-7 py-3.5 font-semibold text-white transition hover:bg-blue-400"
+>
+  Discuss Your Project
+</a>
 
                 <a
                   href="/about"

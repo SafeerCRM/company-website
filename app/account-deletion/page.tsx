@@ -33,10 +33,10 @@ export default function AccountDeletionPage() {
 
           <p className="mt-2">
             <a
-              href="mailto:crmapp1208@gmail.com?subject=Aditya%20Solars%20Account%20Deletion%20Request"
+              href="mailto:s4starttech@gmail.com?subject=Aditya%20Solars%20Account%20Deletion%20Request"
               className="font-semibold text-blue-700 underline"
             >
-              crmapp1208@gmail.com
+              s4starttech@gmail.com
             </a>
           </p>
 
@@ -154,10 +154,10 @@ export default function AccountDeletionPage() {
           <p className="mt-2">
             Contact:{' '}
             <a
-              href="mailto:crmapp1208@gmail.com"
+              href="mailto:s4starttech@gmail.com"
               className="text-blue-700 underline"
             >
-              crmapp1208@gmail.com
+              s4starttech@gmail.com
             </a>
           </p>
 
